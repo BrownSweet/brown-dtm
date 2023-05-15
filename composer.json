@@ -1,0 +1,21 @@
+{
+  "name": "brown/brown-cmq",
+  "description": "腾讯云CMQ封装",
+  "minimum-stability": "stable",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "Brown Sweet",
+      "email": "455764041@qq.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Dtm\\": "src"
+    }
+  }
+
+}
