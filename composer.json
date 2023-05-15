@@ -1,5 +1,5 @@
 {
-  "name": "brown/brown-cmq",
+  "name": "brown/brown-dtm",
   "description": "分布式事务DTM",
   "minimum-stability": "stable",
   "license": "Apache-2.0",
