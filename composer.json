@@ -1,6 +1,6 @@
 {
   "name": "brown/brown-cmq",
-  "description": "腾讯云CMQ封装",
+  "description": "分布式事务DTM",
   "minimum-stability": "stable",
   "license": "Apache-2.0",
   "authors": [
@@ -10,7 +10,9 @@
     }
   ],
   "require": {
-    "php": ">=7.4"
+    "php": ">=7.4",
+    "guzzlehttp/guzzle": "^7.4",
+    "psr/http-server-middleware": "^1.0"
   },
   "autoload": {
     "psr-4": {
