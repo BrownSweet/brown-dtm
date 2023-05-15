@@ -7,6 +7,7 @@
 
 namespace Dtm\Context;
 
+use Closure;
 use Dtm\Context\Coroutine;
 class BaseContext
 {
