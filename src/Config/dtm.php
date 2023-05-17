@@ -17,5 +17,8 @@ return [
             ],
             'apply' => [],
         ],
+        'guzzle' => [
+            'options' => [],
+        ],
     ]
 ];
