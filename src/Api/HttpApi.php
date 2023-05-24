@@ -107,7 +107,7 @@ class HttpApi implements ApiInterface
 
     public function transRequestBranch(RequestBranch $requestBranch)
     {
-        $dtm = $this->getProtocolHead() . $this->config['server']. ':' .$this->config['port'] . '/api/dtmsvr';
+        $dtm = $this->getProtocolHead() . $this->config['server']. ':' .$this->config['port']['http'] . '/api/dtmsvr';
         $options = [
             RequestOptions::QUERY => [
                 'dtm' => $dtm,
