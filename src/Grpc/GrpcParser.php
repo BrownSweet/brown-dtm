@@ -4,9 +4,9 @@ namespace Dtm\Grpc;
 
 use Google\Protobuf\GPBEmpty;
 use Google\Protobuf\Internal\Message;
-use Hyperf\Grpc\Parser;
 
-class GrpcParser extends Parser
+
+class GrpcParser
 {
     /**
      * @param null|\swoole_http2_response $response

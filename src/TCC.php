@@ -16,6 +16,7 @@ use Dtm\Exception\InvalidArgumentException;
 use Dtm\Exception\UnsupportedException;
 use Dtm\BranchIdGeneratorInterface;
 use Dtm\Context\TransContext;
+use Google\Protobuf\Internal\Message;
 
 class TCC extends AbstractTransaction
 {

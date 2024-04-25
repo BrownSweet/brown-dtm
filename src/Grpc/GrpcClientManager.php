@@ -8,8 +8,8 @@ declare(strict_types=1);
  */
 namespace Dtm\Grpc;
 
-use DtmClient\TransContext;
-use Hyperf\GrpcClient\BaseClient;
+use Dtm\Context\TransContext;
+use Dtm\GrpcClient\BaseClient;
 
 class GrpcClientManager
 {
