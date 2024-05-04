@@ -12,7 +12,8 @@
   "require": {
     "php": ">=7.4",
     "guzzlehttp/guzzle": "^7.4",
-    "psr/http-server-middleware": "^1.0"
+    "psr/http-server-middleware": "^1.0",
+    "grpc/grpc": "^1.42.0"
   },
   "autoload": {
     "psr-4": {
